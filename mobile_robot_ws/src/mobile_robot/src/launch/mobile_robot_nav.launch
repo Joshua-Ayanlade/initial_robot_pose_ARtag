@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+    <!--LOAD MAP & LAUNCH MAP SERVER-->
+    <arg name="map" value="$(find mobot_arm)/src/map/map.yaml"/> 
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg map)"/>
+
+    <!--LOCALIZE ROBOT-->
+    <include file="$(find mobot_arm)/src/husky/husky_navigation/launch/amcl.launch"/>
+
+    <!--MOVE BASE-->
+    <include file="$(find mobot_arm)/src/husky/husky_navigation/launch/move_base.launch"/>
+      <!-- move the robot -->
+    <!--node name="move_base" pkg="move_base" type="move_base" respawn="false" output="screen">
+        <rosparam command="load" file="$(find mobot_arm)/src/config/costmap_common_params.yaml" ns="global_costmap"/>
+        <rosparam command="load" file="$(find mobot_arm)/src/config/costmap_common_params.yaml" ns="local_costmap"/>
+        <rosparam command="load" file="$(find mobot_arm)/src/config/costmap_global_params.yaml"/>
+        <rosparam command="load" file="$(find mobot_arm)/src/config/costmap_local_params.yaml"/>
+        <rosparam command="load" file="$(find mobot_arm)/src/config/planner.yaml"/>  
+    </node-->
+</launch>

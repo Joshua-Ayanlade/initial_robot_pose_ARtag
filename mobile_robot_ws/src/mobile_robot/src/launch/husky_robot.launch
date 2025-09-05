@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="x" default="2.5"/>
+    <arg name="y" default="1.8"/>
+    <arg name="z" default="0"/>
+    <arg name="yaw" default="1.37"/>
+    <param name="robot_description" command="$(find xacro)/xacro '$(find mobile_robot)/src/xacro/mobile_robot.xacro'"/>
+
+
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" default="$(find mobile_robot)/src/world/custom_world.world"/>
+        <arg name="paused" value="false"/>
+        <arg name="use_sim_time" value="true"/>       
+    </include>
+    <include file="$(find husky_control)/launch/control.launch"/>
+    <node name= "controller_spawner" pkg= "controller_manager" type="spawner" respawn="false"
+    output="screen" args="joint_state_controller"/>
+
+    <node name="spawn_husky_model" pkg="gazebo_ros" type="spawn_model"
+        args="-x $(arg x)
+              -y $(arg y)
+              -z $(arg z)
+              -Y $(arg yaw)
+              -unpause
+              -urdf
+              -param robot_description
+              -model mobot_arm"/>
+    
+
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+
+    <arg name="rviz_config" default="$(find mobile_robot)/src/config/mobile_robot.rviz"/>
+    
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rviz_config)"/>
+    <include file="$(find mobile_robot)/src/launch/mobile_robot_nav.launch"/>
+
+    <node pkg="tf" type="static_transform_publisher" name="scene_kinect_optical_transform" args="0 0 0 -1.5707 0 -1.5707 scene_kinect scene_kinect_optical_frame 100"/>
+
+    <include file="$(find mobile_robot)/src/launch/ar_marker_detect.launch"/>
+    <include file="$(find mobile_robot)/src/launch/target_pose_transform.launch"/>
+    
+</launch>

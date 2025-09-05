@@ -1,0 +1,22 @@
+mobile_robot
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/cmake.lock /home/vboxuser/mobile_robot_ws/devel/./cmake.lock
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/common-lisp/ros/mobile_robot/srv/mobile_robot-srv.asd /home/vboxuser/mobile_robot_ws/devel/share/common-lisp/ros/mobile_robot/srv/mobile_robot-srv.asd
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/common-lisp/ros/mobile_robot/srv/_package_amclPose.lisp /home/vboxuser/mobile_robot_ws/devel/share/common-lisp/ros/mobile_robot/srv/_package_amclPose.lisp
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/common-lisp/ros/mobile_robot/srv/amclPose.lisp /home/vboxuser/mobile_robot_ws/devel/share/common-lisp/ros/mobile_robot/srv/amclPose.lisp
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/common-lisp/ros/mobile_robot/srv/_package.lisp /home/vboxuser/mobile_robot_ws/devel/share/common-lisp/ros/mobile_robot/srv/_package.lisp
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake /home/vboxuser/mobile_robot_ws/devel/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/mobile_robot/cmake/mobile_robot-msg-extras.cmake /home/vboxuser/mobile_robot_ws/devel/share/mobile_robot/cmake/mobile_robot-msg-extras.cmake
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/mobile_robot/cmake/mobile_robot-msg-paths.cmake /home/vboxuser/mobile_robot_ws/devel/share/mobile_robot/cmake/mobile_robot-msg-paths.cmake
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake /home/vboxuser/mobile_robot_ws/devel/share/mobile_robot/cmake/mobile_robotConfig.cmake
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/gennodejs/ros/mobile_robot/_index.js /home/vboxuser/mobile_robot_ws/devel/share/gennodejs/ros/mobile_robot/_index.js
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/gennodejs/ros/mobile_robot/srv/_index.js /home/vboxuser/mobile_robot_ws/devel/share/gennodejs/ros/mobile_robot/srv/_index.js
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/gennodejs/ros/mobile_robot/srv/amclPose.js /home/vboxuser/mobile_robot_ws/devel/share/gennodejs/ros/mobile_robot/srv/amclPose.js
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/roseus/ros/mobile_robot/manifest.l /home/vboxuser/mobile_robot_ws/devel/share/roseus/ros/mobile_robot/manifest.l
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/share/roseus/ros/mobile_robot/srv/amclPose.l /home/vboxuser/mobile_robot_ws/devel/share/roseus/ros/mobile_robot/srv/amclPose.l
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/include/mobile_robot/amclPoseResponse.h /home/vboxuser/mobile_robot_ws/devel/include/mobile_robot/amclPoseResponse.h
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/include/mobile_robot/amclPoseRequest.h /home/vboxuser/mobile_robot_ws/devel/include/mobile_robot/amclPoseRequest.h
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/include/mobile_robot/amclPose.h /home/vboxuser/mobile_robot_ws/devel/include/mobile_robot/amclPose.h
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/lib/pkgconfig/mobile_robot.pc /home/vboxuser/mobile_robot_ws/devel/lib/pkgconfig/mobile_robot.pc
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/lib/python2.7/dist-packages/mobile_robot/__init__.py /home/vboxuser/mobile_robot_ws/devel/lib/python2.7/dist-packages/mobile_robot/__init__.py
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/lib/python2.7/dist-packages/mobile_robot/srv/_amclPose.py /home/vboxuser/mobile_robot_ws/devel/lib/python2.7/dist-packages/mobile_robot/srv/_amclPose.py
+/home/vboxuser/mobile_robot_ws/devel/.private/mobile_robot/lib/python2.7/dist-packages/mobile_robot/srv/__init__.py /home/vboxuser/mobile_robot_ws/devel/lib/python2.7/dist-packages/mobile_robot/srv/__init__.py

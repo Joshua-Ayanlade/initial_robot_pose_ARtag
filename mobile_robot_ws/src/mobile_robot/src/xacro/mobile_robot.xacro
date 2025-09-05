@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mobot_arm">
+<xacro:include filename="$(find husky_description)/urdf/husky.urdf.xacro"/>
+<xacro:include filename="$(find mobile_robot)/src/xacro/multi_kinect.xacro"/>
+
+
+<xacro:arg name="prefix" default="ur"/>
+
+<xacro:k_cam pref="scene" parent_link = "base_link">
+    <origin xyz="0.42 0.0 0.3" rpy="0.0 0.0 0.0"/>
+</xacro:k_cam>   
+
+
+</robot>

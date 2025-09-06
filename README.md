@@ -2,7 +2,8 @@
 
 <p align="justify">
 Localization is a key requirement for autonomous navigation. While AMCL <i>(Adaptive Monte Carlo Localization)</i> helps robots localize on a known map, it requires an <b>initial pose estimate</b> to start converging. Traditionally, this estimate is provided manually via Rviz or configuration files, but this can be slow and inaccurate.
-
+</p>
+<p align="justify">
 This project introduces a <b>vision-based method using AR tags</b> to automatically set the robot's initial pose in ROS. It detects an AR tag, computes the robot's pose relative to the map, and publishes it to <code>/initialpose</code>. This speeds up localization and reduces user intervention.
 </p>
 

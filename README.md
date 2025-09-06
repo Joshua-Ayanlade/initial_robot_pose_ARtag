@@ -73,7 +73,7 @@ source devel/setup.bash
 1. Launch the Gazebo world, spawn the husky robot, start the controllers, start static trasform publisher, start the AR-tag detector:  
    `roslaunch mobile_robot husky_robot.launch`
 
-1. Launch the amcl pose server:  
+2. Launch the amcl pose server:  
    `rosrun mobile_robot amclPoseServer.py`
 
 3. Execute the python script to localize the robot:

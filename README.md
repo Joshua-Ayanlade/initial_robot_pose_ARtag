@@ -10,10 +10,10 @@ This project introduces a <b>vision-based method using AR tags</b> to automatica
 ---
 
 ### ✨ Features
-✅ Automatic computation of **initial pose** using AR tags.
-✅ Works regardles of AR tag position/orientation relative to the robot.
-✅ Publishes pose to `/initialpose` for AMCL to use
-✅ Includes a custom **ROS service (`amcl_pose_server`)** to query robot's estimated position.
+✅ Automatic computation of **initial pose** using AR tags.  
+✅ Works regardles of AR tag position/orientation relative to the robot.  
+✅ Publishes pose to `/initialpose` for AMCL to use  
+✅ Includes a custom **ROS service (`amcl_pose_server`)** to query robot's estimated position.  
 
 ---
 
